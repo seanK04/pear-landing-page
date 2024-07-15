@@ -12,6 +12,7 @@ export default async function Header() {
     { label: "Discord", path: "https://discord.gg/AKy5FmqCkF" },
     { label: "GitHub", path: "https://github.com/trypear/pearai-app" },
     { label: "Priority Waitlist", path: "/priority-waitlist" },
+    { label: "Relevant Links", path: "/master-doc" },
   ];
 
   const supabase = createClient();
